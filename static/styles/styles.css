@@ -1,0 +1,122 @@
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.filter-tag {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-tag.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.filters-section {
+  padding-top: 50px
+}
+
+.product-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+.product-details p {
+    font-size: 15px;
+}
+
+.product-details button {
+    10rem;
+}
+
+.button-pair a {
+    font-size: 12px
+}
+
+.hero p {
+    font-size: 18px
+}
+
+.container {
+  max-width: 960px; /* Adjust the value as per your preference */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.feature .blog-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.blog-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.blog-subtitle {
+  font-size: 16px;
+  color: #555;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.album h1 {
+    font-size: 40px;
+    font-family: 'Bacasime Antique', serif;
+}
+
+body p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul.nav-text a {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px
+}
+
+.text-end a{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px
+}
+
+div.py-3 a.btn {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px
+}
+
+footer {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px
+}
+
+
+
+
+
