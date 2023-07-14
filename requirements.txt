@@ -1,4 +1,4 @@
-Flask~=2.3.2
+Flask
 Flask-Bootstrap
 Flask-CKEditor
 Flask-Gravatar
@@ -16,8 +16,8 @@ PyWavelets
 PyYAML
 Pygments
 SQLAlchemy
-WTForms~=2.3.3
-Werkzeug~=2.3.6
+WTForms
+Werkzeug
 aiohttp
 aiosignal
 alembic
@@ -38,5 +38,5 @@ dnspython
 dominate
 email-validator
 gunicorn
-stripe~=5.4.0
-python-dotenv~=1.0.0
+stripe
+python-dotenv
