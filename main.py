@@ -60,8 +60,8 @@ class CartItem(db.Model):
     quantity = db.Column(db.Integer, nullable=False)
 
 
-# with app.app_context():
-#     db.create_all()
+with app.app_context():
+    db.create_all()
 
 @app.route("/")
 def home():
@@ -153,7 +153,7 @@ def login():
                 login_user(user)
                 return redirect(url_for('home'))
             else:
-                flash("Incorrect credentials.", "eror")
+                flash("Incorrect credentials.", "error")
         else:
             flash("Incorrect credentials.", "error")
 
