@@ -39,3 +39,5 @@ dominate
 email-validator
 gunicorn
 stripe
+dotenv
+os
