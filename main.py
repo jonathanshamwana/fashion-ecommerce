@@ -11,9 +11,6 @@ import stripe
 
 load_dotenv()
 
-dotenv_path = '/Users/jonathanshamwana/PycharmProjects/fashion-ecommerce/.env'
-load_dotenv(dotenv_path)
-
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv("SECRET_KEY")
 Bootstrap(app)
