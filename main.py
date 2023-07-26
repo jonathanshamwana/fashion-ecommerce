@@ -60,8 +60,8 @@ class CartItem(db.Model):
     quantity = db.Column(db.Integer, nullable=False)
 
 
-# with app.app_context():
-#     db.create_all()
+with app.app_context():
+    db.create_all()
 
 @app.route("/")
 def home():
