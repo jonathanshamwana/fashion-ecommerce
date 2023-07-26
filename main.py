@@ -2,7 +2,6 @@ from flask import Flask, render_template, redirect, url_for, flash, request
 from flask_bootstrap import Bootstrap
 from forms import ProductForm
 from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
 from flask_login import LoginManager, login_user, logout_user, current_user, UserMixin
 from werkzeug.security import check_password_hash, generate_password_hash
 from dotenv import load_dotenv
@@ -18,7 +17,6 @@ Bootstrap(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///ecommerce.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
-migrate = Migrate(app, db)
 
 tags = ["Avante-garde", "Y2K", "80s", "Allesandro", "Tech", "Monocrhome", "Ready-to-wear", "Video Game", "activism", "absurdity", "camp"]
 promo_codes = ["WIN10", "NEW64", "APPLEBEE12", "DISCOUNT77"]
